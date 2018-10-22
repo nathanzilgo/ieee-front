@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './LoginStyle.css';
+import logo from '../../images/ieee-logo.jpg';
 
 class login extends Component {
     render() { 
         return (
         <div className="Login">
             <div className="LoginSection__Header">
-                <img className="LoginSection__Img" src="../../../src/images/ieee-logo.jpg" alt="Logo"/>
+                <img className="LoginSection__Img" src={logo} alt="IEEE Logo"/>
                 <p>Ramo Estudantil UFCG</p>
             </div>
             <div className="LoginSection">
